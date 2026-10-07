@@ -446,15 +446,15 @@ footer a:hover{color:var(--gold-soft)}
   </div>
 </div>
 
-<!-- ================= ANIVERSARIO 70 AÑOS (se oculta solo desde el 13/10/2026) ================= -->
+<!-- ================= ANIVERSARIO 70 AÑOS (se oculta desde el 12/10/2026) ================= -->
 <section class="anniv" id="aniversario">
   <div class="container">
     <div class="anniv-box reveal">
-      <div class="anniv-date"><strong>12</strong><small>Octubre · 19:00</small></div>
+      <div class="anniv-date"><strong>11</strong><small>Octubre · 18:00</small></div>
       <div>
         <span class="eyebrow">Aniversario</span>
         <h2>70 años de la <em>fidelidad de Dios</em></h2>
-        <p>Este 12 de octubre nuestra iglesia cumple 70 años y, como cada año, lo conmemoraremos ese mismo día con un culto y celebración de aniversario el <strong style="color:var(--gold-soft);font-weight:500">lunes 12 de octubre a las 19:00 hrs</strong>. ¡Te esperamos!</p>
+        <p>Nuestra iglesia cumple 70 años este 12 de octubre y lo celebraremos con un culto de aniversario el <strong style="color:var(--gold-soft);font-weight:500">domingo 11 de octubre a las 18:00 hrs</strong>. ¡Te esperamos!</p>
         <div class="anniv-count" id="annivCount" aria-label="Cuenta regresiva"></div>
       </div>
       <a href="#contacto" class="btn btn-gold">Cómo llegar</a>
@@ -549,7 +549,7 @@ footer a:hover{color:var(--gold-soft)}
       <div class="tl-item reveal">
         <div class="tl-year">2026</div>
         <div class="tl-dot"></div>
-        <div class="tl-card"><h3>70 años de gracia</h3><p>El 12 de octubre celebramos siete décadas de la fidelidad de Dios y 26 años de pastorado del pastor Luis Santiago Riquelme, firmes en la fe bautista confesional.</p></div>
+        <div class="tl-card"><h3>70 años de gracia</h3><p>Al cumplir 70 años este 12 de octubre, celebramos siete décadas de la fidelidad de Dios y 26 años de pastorado del pastor Luis Santiago Riquelme, firmes en la fe bautista confesional.</p></div>
       </div>
       <div class="tl-item reveal">
         <div class="tl-year">Hoy</div>
@@ -884,11 +884,11 @@ document.getElementById('contactForm').addEventListener('submit', e => {
 });
 
 
-// Aniversario: cuenta regresiva y ocultar pasado el 12 de octubre de 2026
+// Aniversario: cuenta regresiva y ocultar pasado el 11 de octubre de 2026
 (() => {
   const sec = document.getElementById('aniversario'); if (!sec) return;
-  const target = new Date('2026-10-12T19:00:00-03:00');
-  const end = new Date('2026-10-13T00:00:00-03:00');
+  const target = new Date('2026-10-11T18:00:00-03:00');
+  const end = new Date('2026-10-12T00:00:00-03:00');
   const box = document.getElementById('annivCount');
   const tick = () => {
     const now = new Date();
